@@ -1,0 +1,6 @@
+This directory is for website assets such as:
+- Images (profile photo, logos, etc.)
+- Documents (PDF downloads)
+- Additional media files
+
+For a production website, you should replace placeholders with actual optimized images. 
