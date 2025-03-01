@@ -1,75 +1,84 @@
-# Nexus FinTech
+# Nexus FinTech - Landing Page
 
-Professional website for Nexus FinTech, offering AI solutions for financial services.
-
-## Overview
-
-Nexus FinTech is a premium consultancy providing enterprise AI solutions specifically tailored for the financial services industry. The website showcases our professional services, expertise, and approach.
+A professional landing page for Nexus FinTech, an AI solutions provider for financial services companies.
 
 ## Features
 
-- **Minimalist Black & White Design**: Clean, sophisticated aesthetic that conveys professionalism
-- **Responsive Design**: Fully mobile-responsive layout for all device sizes
-- **Data Visualization Section**: Interactive charts displaying key AI performance metrics
-- **Blog Section**: Latest insights and developments in AI for financial services
-- **Contact Form**: Easy-to-use contact system for client inquiries
+- Responsive design for all devices
+- Modern UI with smooth animations
+- Contact form with client-side validation
+- Optimized for performance and SEO
 
-## Technologies Used
+## Setup Instructions
 
-- HTML5
-- CSS3
-- JavaScript
-- Chart.js for data visualization
-- FontAwesome for icons
-- Google Fonts (Montserrat and Open Sans)
+### Local Development
 
-## Local Development
+1. Clone this repository to your local machine
+2. Navigate to the project directory
+3. Open `index.html` in your browser to view the site
 
-To run this website locally:
+For a local development server with live reload:
 
-### Using Python's Built-in Server
+#### Using Python (Python 3 required)
 
 ```bash
+# Navigate to the project directory
+cd path/to/nexus-fintech
+
+# Start a simple HTTP server
 python -m http.server 8000
 ```
 
-Then visit http://localhost:8000 in your browser.
+Then visit `http://localhost:8000` in your browser.
 
-### Using the Included Scripts
+#### Using Node.js (if installed)
 
-For Windows users, two options are available:
+```bash
+# Install live-server globally if you don't have it
+npm install -g live-server
 
-1. **PowerShell Script**:
-   ```
-   ./start-local-server.ps1
-   ```
+# Start the server
+live-server
+```
 
-2. **Batch File**:
-   ```
-   start-server.bat
-   ```
+### Customization
 
-## Deployment
-
-This website is designed to be deployed on Vercel for optimal performance. Follow these steps:
-
-1. Push to GitHub (use the included scripts if needed)
-2. Connect your Vercel account to your GitHub repository
-3. Deploy through Vercel's user-friendly interface
+- **Colors**: Edit the CSS variables in the `:root` selector in `styles.css`
+- **Content**: Modify the text in `index.html`
+- **Images**: Replace the placeholder image in the about section with a real photo
 
 ## Project Structure
 
-- `index.html` - Main HTML structure
-- `styles.css` - All styling information
-- `script.js` - JavaScript for interactivity and data visualization
-- `assets/` - Directory for images and other resources
-- `README.md` - Project documentation
-- Deployment scripts for local development
+```
+nexus-fintech/
+├── index.html          # Main HTML file
+├── styles.css          # All styles
+├── script.js           # JavaScript functionality
+└── README.md           # This file
+```
+
+## Browser Compatibility
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Opera (latest)
+
+## Production Deployment
+
+When ready for production:
+
+1. Optimize images
+2. Minify CSS and JavaScript
+3. Enable GZIP compression on your server
+4. Set up proper caching headers
 
 ## Contact
 
-For more information about Nexus FinTech, please contact us at info@nexusfintech.com.
+For questions or support, contact:
+- Email: info@nexusfintech.com
 
 ## License
 
-© 2025 Nexus FinTech. All rights reserved. 
+© 2023 Nexus FinTech. All rights reserved. 
