@@ -73,7 +73,7 @@ echo Committing changes...
 
 :: Push to GitHub
 echo Pushing to GitHub...
-%GIT_PATH% push -u origin main
+%GIT_PATH% push -u origin master
 
 if %ERRORLEVEL% equ 0 (
     echo ========================================
@@ -84,23 +84,10 @@ if %ERRORLEVEL% equ 0 (
     echo ========================================
 ) else (
     echo.
-    echo If push failed with 'main' branch, trying 'master' branch...
-    %GIT_PATH% push -u origin master
-    
-    if %ERRORLEVEL% equ 0 (
-        echo ========================================
-        echo Success! Your changes have been pushed to GitHub.
-        echo Vercel should automatically deploy your changes.
-        echo Visit your Vercel dashboard to check deployment status:
-        echo https://vercel.com/denzobigs-projects/nexus-txbr
-        echo ========================================
-    ) else (
-        echo.
-        echo Push failed. You may need to:
-        echo 1. Use a Personal Access Token (PAT) for authentication
-        echo 2. Visit https://github.com/settings/tokens to create a PAT
-        echo 3. When prompted for password, use your PAT instead
-    )
+    echo Push failed. You may need to:
+    echo 1. Use a Personal Access Token (PAT) for authentication
+    echo 2. Visit https://github.com/settings/tokens to create a PAT
+    echo 3. When prompted for password, use your PAT instead
 )
 
 pause 
