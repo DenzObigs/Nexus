@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexus FinTech | AI Solutions for Financial Services</title>
+    <meta name="description" content="Nexus FinTech - Revolutionizing financial technology with AI-driven solutions for businesses and institutions">
+    <meta name="keywords" content="fintech, AI, financial technology, investment, data analytics">
+    <meta name="author" content="Nexus FinTech">
+    <title>Nexus FinTech | AI-Powered Financial Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <!-- Chart.js for data visualization -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+    <!-- Inline favicon to fix 404 error -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔷</text></svg>">
 </head>
 <body>
     <header>
@@ -20,12 +23,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#services">Solutions</a></li>
-                    <li><a href="#approach">Approach</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#data-viz">Insights</a></li>
                     <li><a href="#blog">Blog</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact" class="btn-secondary">Contact</a></li>
-                    <li><a href="#consultation" class="btn-primary">Book Consultation</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,20 +35,92 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Enterprise AI Solutions for Financial Services</h1>
-                <p>Transform your financial operations with custom AI implementation that delivers measurable ROI</p>
+                <h1>AI-Powered Financial Solutions</h1>
+                <p>Revolutionizing the financial industry with cutting-edge AI technology. We provide data-driven insights, automate processes, and optimize investment strategies for businesses and institutions.</p>
                 <div class="hero-buttons">
-                    <a href="#consultation" class="btn-primary">Schedule a Consultation</a>
-                    <a href="#services" class="btn-secondary">Explore Solutions</a>
+                    <a href="#services" class="btn-primary">Explore Services</a>
+                    <a href="#contact" class="btn-secondary">Get Started</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="data-viz">
+    <section class="credentials">
         <div class="container">
-            <h2>AI Impact in Financial Services</h2>
-            <p>Real-time metrics showing the transformative power of artificial intelligence in the finance sector</p>
+            <div class="credentials-bar">
+                <p>Trusted by leading financial institutions</p>
+                <div class="logos">
+                    <span>CAPITAL FINANCE</span>
+                    <span>GLOBAL INVEST</span>
+                    <span>SYNERGY BANK</span>
+                    <span>APEX HOLDINGS</span>
+                    <span>MERIDIAN GROUP</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Advanced AI-powered solutions tailored for the financial sector. Our services optimize operations, enhance decision-making, and drive sustainable growth.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Predictive Analytics</h3>
+                    <p>Leverage machine learning algorithms to forecast market trends, identify investment opportunities, and mitigate risks with unprecedented accuracy.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automated Trading</h3>
+                    <p>Execute trades with lightning speed and precision using our AI-powered trading systems, optimized for various market conditions and strategies.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Fraud Detection</h3>
+                    <p>Protect your assets with our advanced anomaly detection systems that identify suspicious patterns and potential threats in real-time.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Customer Insights</h3>
+                    <p>Understand your clients better with AI-driven behavioral analysis, personalized recommendations, and predictive customer service.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3>Regulatory Compliance</h3>
+                    <p>Stay compliant with evolving financial regulations through automated monitoring, reporting, and documentation systems.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Portfolio Optimization</h3>
+                    <p>Maximize returns while managing risk through AI-optimized portfolio allocation, rebalancing, and diversification strategies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="data-viz" class="data-viz">
+        <div class="container">
+            <h2 class="section-title">Data Insights</h2>
+            <p class="section-subtitle">Our AI-driven analytics provide clear visualization of complex financial data, helping you make informed decisions.</p>
             
             <div class="data-viz-container">
                 <div class="viz-card">
@@ -57,7 +130,7 @@
                     </div>
                     <div class="viz-info">
                         <div class="number">267%</div>
-                        <div class="label">Average 3-Year ROI</div>
+                        <div class="label">Average ROI</div>
                     </div>
                 </div>
                 
@@ -67,8 +140,8 @@
                         <canvas id="efficiencyChart"></canvas>
                     </div>
                     <div class="viz-info">
-                        <div class="number">73%</div>
-                        <div class="label">Reduction in Manual Processing</div>
+                        <div class="number">43%</div>
+                        <div class="label">Time Saved</div>
                     </div>
                 </div>
                 
@@ -78,115 +151,9 @@
                         <canvas id="adoptionChart"></canvas>
                     </div>
                     <div class="viz-info">
-                        <div class="number">42%</div>
-                        <div class="label">Annual Increase in AI Spend</div>
+                        <div class="number">78%</div>
+                        <div class="label">Market Share</div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="credentials">
-        <div class="container">
-            <div class="credentials-bar">
-                <p>ENTERPRISE EXPERTISE BROUGHT TO YOUR ORGANIZATION</p>
-                <div class="logos">
-                    <span>AWS</span>
-                    <span>KPMG</span>
-                    <span>ACCENTURE</span>
-                    <span>KELLOGG MBA</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="value-proposition">
-        <div class="container">
-            <h2>AI SOLUTIONS TAILORED FOR FINANCIAL SERVICES</h2>
-            <p>At Nexus FinTech, we deliver custom AI implementations that streamline operations, enhance decision-making, and drive efficiency across your financial organization. Led by Dennis Obigwe, we combine enterprise consulting experience with deep technical knowledge to bridge the gap between complex AI technology and real-world financial applications.</p>
-        </div>
-    </section>
-
-    <section id="services" class="services">
-        <div class="container">
-            <h2>TARGETED AI SOLUTIONS</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-robot"></i></div>
-                    <h3>INTELLIGENT AUTOMATION</h3>
-                    <p>Streamline back-office operations and reduce manual processes with custom AI workflows designed specifically for financial compliance requirements.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-chart-line"></i></div>
-                    <h3>PREDICTIVE ANALYTICS</h3>
-                    <p>Leverage your existing data to forecast trends, identify opportunities, and mitigate risks with AI models built for financial services.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-cloud"></i></div>
-                    <h3>CLOUD INFRASTRUCTURE OPTIMIZATION</h3>
-                    <p>Maximize your cloud investment with AI-powered resource allocation and management strategies built on AWS best practices.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-cogs"></i></div>
-                    <h3>STRATEGIC AI IMPLEMENTATION</h3>
-                    <p>From proof-of-concept to full-scale deployment, receive end-to-end guidance tailored to your organization's unique needs and capabilities.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="why-choose">
-        <div class="container">
-            <h2>WHY FINANCIAL LEADERS CHOOSE NEXUS FINTECH</h2>
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <h3>ENTERPRISE EXPERTISE, BOUTIQUE SERVICE</h3>
-                    <p>Direct access to senior expertise without layers of account management.</p>
-                </div>
-                <div class="benefit-card">
-                    <h3>IMPLEMENTATION-FOCUSED APPROACH</h3>
-                    <p>Practical solutions designed for your operations, not theoretical concepts.</p>
-                </div>
-                <div class="benefit-card">
-                    <h3>FINANCIAL SERVICES SPECIALIZATION</h3>
-                    <p>Deep understanding of regulatory requirements and industry-specific challenges.</p>
-                </div>
-                <div class="benefit-card">
-                    <h3>END-TO-END CAPABILITY</h3>
-                    <p>Full stack implementation from strategy through execution and measurement.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="approach" class="process">
-        <div class="container">
-            <h2>THE NEXUS APPROACH</h2>
-            <div class="process-steps">
-                <div class="process-step">
-                    <div class="step-number">1</div>
-                    <h3>DISCOVERY</h3>
-                    <p>Comprehensive assessment of your current operations, challenges, and opportunities.</p>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">2</div>
-                    <h3>STRATEGY</h3>
-                    <p>Tailored roadmap with clear KPIs and implementation milestones.</p>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">3</div>
-                    <h3>IMPLEMENTATION</h3>
-                    <p>Hands-on execution with regular progress updates and testing.</p>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">4</div>
-                    <h3>MEASUREMENT</h3>
-                    <p>Rigorous analysis of results against established success metrics.</p>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">5</div>
-                    <h3>OPTIMIZATION</h3>
-                    <p>Continuous improvement based on performance data and emerging technologies.</p>
                 </div>
             </div>
         </div>
@@ -194,120 +161,98 @@
 
     <section id="blog" class="blog">
         <div class="container">
-            <h2>INSIGHTS & UPDATES</h2>
+            <h2 class="section-title">Latest Insights</h2>
             <div class="blog-intro">
-                <p>The latest news and insights on AI applications in financial services, regulatory developments, and technology trends.</p>
+                <p>Stay updated with the latest trends, innovations, and insights in AI-powered financial technology.</p>
             </div>
             
             <div class="blog-grid">
                 <div class="blog-card">
                     <div class="blog-image">
-                        <img src="https://via.placeholder.com/600x400/f5f5f5/333333" alt="AI in Banking">
-                        <div class="blog-category">Regulation</div>
+                        <div class="blog-category">Analysis</div>
                     </div>
                     <div class="blog-content">
-                        <div class="blog-date">March 1, 2023</div>
-                        <h3 class="blog-title">SEC Issues New Guidelines for AI Use in Financial Forecasting</h3>
-                        <p class="blog-excerpt">The Securities and Exchange Commission has released a comprehensive framework for financial institutions implementing AI in their forecasting models, emphasizing transparency and explainability.</p>
-                        <a href="#" class="blog-link">Read more</a>
+                        <div class="blog-date">March 15, 2023</div>
+                        <h3 class="blog-title">The Impact of Quantum Computing on Financial Markets</h3>
+                        <p class="blog-excerpt">Exploring how quantum algorithms are revolutionizing risk assessment and high-frequency trading strategies.</p>
+                        <a href="#" class="blog-link">Read More</a>
                     </div>
                 </div>
                 
                 <div class="blog-card">
                     <div class="blog-image">
-                        <img src="https://via.placeholder.com/600x400/f5f5f5/333333" alt="AI Innovation">
-                        <div class="blog-category">Technology</div>
+                        <div class="blog-category">Innovation</div>
                     </div>
                     <div class="blog-content">
-                        <div class="blog-date">February 15, 2023</div>
-                        <h3 class="blog-title">Large Language Models Transform Fraud Detection in Banking</h3>
-                        <p class="blog-excerpt">Financial institutions implementing GPT-4 based systems are reporting 94% improvement in real-time fraud detection capabilities while reducing false positives by over 60%.</p>
-                        <a href="#" class="blog-link">Read more</a>
+                        <div class="blog-date">February 28, 2023</div>
+                        <h3 class="blog-title">Decentralized Finance: Beyond the Hype</h3>
+                        <p class="blog-excerpt">A detailed analysis of DeFi's potential to transform traditional banking systems and investment platforms.</p>
+                        <a href="#" class="blog-link">Read More</a>
                     </div>
                 </div>
                 
                 <div class="blog-card">
                     <div class="blog-image">
-                        <img src="https://via.placeholder.com/600x400/f5f5f5/333333" alt="Market Trends">
-                        <div class="blog-category">Strategy</div>
+                        <div class="blog-category">Research</div>
                     </div>
                     <div class="blog-content">
-                        <div class="blog-date">January 28, 2023</div>
-                        <h3 class="blog-title">Mid-Size Financial Firms Outperform Larger Competitors with Targeted AI</h3>
-                        <p class="blog-excerpt">New industry report shows regional banks and credit unions achieving 3.5x ROI on AI implementations through focused solutions and agile deployment strategies.</p>
-                        <a href="#" class="blog-link">Read more</a>
+                        <div class="blog-date">January 20, 2023</div>
+                        <h3 class="blog-title">AI Ethics in Financial Decision-Making</h3>
+                        <p class="blog-excerpt">Examining the ethical implications of automated financial systems and algorithmic decision-making.</p>
+                        <a href="#" class="blog-link">Read More</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-image">
-                    <div class="founder-placeholder">
-                        <span>Dennis Obigwe</span>
-                        <span class="title">Founder & Principal Consultant</span>
-                    </div>
-                </div>
-                <div class="about-content">
-                    <h2>LEADERSHIP</h2>
-                    <h3>Dennis Obigwe</h3>
-                    <p class="title">Founder & Principal Consultant</p>
-                    <p>Dennis brings over 15 years of enterprise technology experience to Nexus FinTech. With a background spanning KPMG, Accenture, and AWS, he combines deep technical knowledge with strategic business acumen.</p>
-                    <p>His expertise in cloud infrastructure, full-stack product development, and emerging technologies enables financial organizations to implement AI solutions that deliver tangible business results.</p>
-                    <p>Dennis holds an MBA from Kellogg School of Management and remains at the forefront of AI implementation for financial services.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="consultation" class="cta">
-        <div class="container">
-            <h2>READY FOR AI THAT DELIVERS REAL RESULTS?</h2>
-            <p>Schedule a 30-minute consultation to discuss your specific challenges and learn how AI can transform your financial operations.</p>
-            <div class="cta-buttons">
-                <a href="#contact" class="btn-primary">Book Your Consultation</a>
-                <a href="#" class="btn-secondary">Download Capabilities Overview</a>
             </div>
         </div>
     </section>
 
     <section id="contact" class="contact">
         <div class="container">
-            <h2>GET IN TOUCH</h2>
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Ready to transform your financial operations with AI? Get in touch with our team of experts today.</p>
+            
             <div class="contact-grid">
                 <div class="contact-info">
-                    <h3>Contact Information</h3>
+                    <h3>Get In Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Finance District, New York, NY 10004</p>
                     <p><i class="fas fa-envelope"></i> info@nexusfintech.com</p>
-                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    
                     <div class="social-links">
-                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
                         <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-medium"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
+                
                 <div class="contact-form">
-                    <form>
+                    <form id="contactForm">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
                         </div>
+                        
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input type="email" id="email" name="email" required>
                         </div>
+                        
                         <div class="form-group">
                             <label for="company">Company</label>
-                            <input type="text" id="company" name="company" required>
+                            <input type="text" id="company" name="company">
                         </div>
+                        
                         <div class="form-group">
-                            <label for="message">How can we help?</label>
-                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn-primary">Submit</button>
+                        
+                        <button type="submit" class="btn-primary">Send Message</button>
                     </form>
+                    <div class="success-message" id="successMessage">
+                        Your message has been sent successfully. We'll get back to you soon!
+                    </div>
                 </div>
             </div>
         </div>
@@ -318,19 +263,30 @@
             <div class="footer-content">
                 <div class="footer-logo">
                     <h2>Nexus<span>FinTech</span></h2>
-                    <p>Enterprise AI Solutions for Financial Services</p>
+                    <p>Revolutionizing finance with artificial intelligence and machine learning solutions.</p>
                 </div>
+                
                 <div class="footer-links">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#services">Solutions</a></li>
-                        <li><a href="#approach">Approach</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#data-viz">Data Insights</a></li>
                         <li><a href="#blog">Blog</a></li>
-                        <li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
+                
+                <div class="footer-links">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
             </div>
+            
             <div class="footer-bottom">
                 <p>&copy; 2023 Nexus FinTech. All rights reserved.</p>
             </div>
